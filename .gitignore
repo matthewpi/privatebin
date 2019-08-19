@@ -1,0 +1,93 @@
+#-------------------
+# IDEs & Workspaces
+#-------------------
+
+# Jetbrains IDEs
+/.idea
+*.iml
+*.ipr
+*.iws
+
+# Visual Studio Code
+/.vscode
+
+# Sublime
+*.sublime-*
+
+#-------------------
+# Languages
+#-------------------
+
+# Java
+/target
+dependency-reduced-pom.xml
+
+# NodeJS
+/node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.yarn-integrity
+package-lock.json
+yarn.lock
+/.npm
+.eslintcache
+.cache
+
+# PHP
+/vendor
+.php_cs.cache
+
+# Python
+*.pyc
+
+#-------------------
+# Operating Systems
+#-------------------
+
+# External Drives
+.Spotlight-V100
+.Trashes
+
+# Mac OS
+/.DS_Store
+*.DS_Store
+
+# Linux
+*~
+
+# VIM
+.*.sw[a-p]
+
+#-------------------
+# Runtime
+#-------------------
+
+# Process IDs
+pids
+*.pid
+*.seed
+*.pid.lock
+
+#-------------------
+# Misc
+#-------------------
+
+# Project Files
+/.env
+/.logs
+/privatebin
+/privatebin.exe
+
+# Log Files
+/logs
+*.log
+
+# Service Workers
+sw.*
+
+# Serverless
+/.serverless
+
+# Caching
+*.tgz
