@@ -1,13 +1,17 @@
 # PrivateBin CLI
+
 A CLI for PrivateBin allowing easy pasting from the Terminal.
 
 ## Installation
+
 ```shell script
 wget https://github.com/matthewpi/privatebin/releases/download/v0.0.1/privatebin -P /usr/bin/ && chmod +x /usr/bin/privatebin
 ```
 
 ## Usage
-Currently we only support piping inputs on the Command Line.
+
+Currently, `privatebin` only support piping inputs on the Command Line.
+
 ```shell script
 # Using Echo
 echo test | privatebin
